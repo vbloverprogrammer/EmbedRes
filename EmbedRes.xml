@@ -6,61 +6,87 @@ EmbedRes
 </name>
 </assembly>
 <members>
-<member name="M:EmbedRes.Resource.Base64StringJpegData(System.String,System.String)">
-	<summary>
+<member name="M:EmbedRes.EmbeddedResource.GetStreamReader(System.String,System.String)">
+ <summary>
+ Using for C#
+ </summary>
+ <param name="Path"></param>
+ <param name="Name"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EmbedRes.EmbeddedResource.Document(System.String)">
+ <summary>
+ Get Text Document String from Embedded Resource File
+ </summary>
+ <param name="Name"></param>
+ <returns></returns>
+</member>
+<member name="M:EmbedRes.EmbeddedResource.Document(System.String,System.String)">
+ <summary>
+ Get Text Document String from Embedded Resource File
+ for C#
+ </summary>
+ <param name="Name"></param>
+ <returns></returns>
+</member>
+<member name="M:EmbedRes.EmbeddedResource.HTMLBody(System.String)">
+ <summary>
+ Get HTML Document Body InnerHTML from Embedded Resource File
+ </summary>
+ <param name="Name"></param>
+ <returns></returns>
+</member>
+<member name="M:EmbedRes.EmbeddedResource.Base64StringJpegData(System.String)">
+ <summary>
  for HTML Image
  </summary>
-	<param name="Name"></param>
-	<returns></returns>
-</member><member name="M:EmbedRes.Resource.Base64StringPNGData(System.String,System.String)">
-	<summary>
+ <param name="Name"></param>
+ <returns></returns>
+</member>
+<member name="M:EmbedRes.EmbeddedResource.Base64StringPNGData(System.String)">
+ <summary>
  for HTML Image
  </summary>
-	<param name="Name"></param>
-	<returns></returns>
-</member><member name="P:EmbedRes.My.Resources.Resources.ResourceManager">
-	<summary>
+ <param name="Name"></param>
+ <returns></returns>
+</member>
+<member name="M:EmbedRes.EmbeddedResource.Base64StringWebpData(System.String)">
+ <summary>
+ for HTML Image
+ </summary>
+ <param name="Name"></param>
+ <returns></returns>
+</member>
+<member name="T:EmbedRes.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EmbedRes.My.Resources.Resources.ResourceManager">
+<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="P:EmbedRes.My.Resources.Resources.Culture">
-	<summary>
+</member>
+<member name="P:EmbedRes.My.Resources.Resources.Culture">
+<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="T:EmbedRes.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="M:EmbedRes.EmbeddedResource.Document(System.String)">
-	<summary>
- Get Text Document String from Embedded Resource File
- </summary>
-	<param name="Name"></param>
-	<returns></returns>
-</member><member name="M:EmbedRes.EmbeddedResource.HTMLBody(System.String)">
-	<summary>
- Get HTML Document Body InnerHTML from Embedded Resource File
- </summary>
-	<param name="Name"></param>
-	<returns></returns>
-</member><member name="M:EmbedRes.EmbeddedResource.Base64StringJpegData(System.String)">
-	<summary>
+</member>
+<member name="M:EmbedRes.Resource.Base64StringJpegData(System.String,System.String)">
+ <summary>
  for HTML Image
  </summary>
-	<param name="Name"></param>
-	<returns></returns>
-</member><member name="M:EmbedRes.EmbeddedResource.Base64StringPNGData(System.String)">
-	<summary>
+ <param name="Name"></param>
+ <returns></returns>
+</member>
+<member name="M:EmbedRes.Resource.Base64StringPNGData(System.String,System.String)">
+ <summary>
  for HTML Image
  </summary>
-	<param name="Name"></param>
-	<returns></returns>
-</member><member name="M:EmbedRes.EmbeddedResource.Base64StringWebpData(System.String)">
-	<summary>
- for HTML Image
- </summary>
-	<param name="Name"></param>
-	<returns></returns>
+ <param name="Name"></param>
+ <returns></returns>
 </member>
 </members>
 </doc>
