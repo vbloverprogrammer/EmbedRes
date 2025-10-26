@@ -4,12 +4,16 @@
     <id>EmbedRes</id>
     <version>1.0.0</version>
     <authors>Rostam Firozzadeh</authors>
-    <owners>vbloverprogrammer</owners>
+    <description>Using Embedded Resources in VB.NET projects</description>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/vbloverprogrammer/EmbedRes</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Using Embedded Resources at Project</description>
-    <tags>EmbeddedResource</tags>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright © vbloverprogrammer 2025</copyright>
+    <tags>Embedded Resource VB.NET</tags>
   </metadata>
   <files>
-    <file src="bin\Release\EmbedRes.dll" target="lib\net20" />
+   <!-- <file src="README.md" target="content" /> -->
+    <file src="EmbedRes.dll" target="lib\net20" />
   </files>
 </package>
