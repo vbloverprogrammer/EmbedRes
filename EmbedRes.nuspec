@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>EmbedRes</id>
+    <version>1.0.0</version>
+    <authors>Rostam Firozzadeh</authors>
+    <owners>vbloverprogrammer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Using Embedded Resources at Project</description>
+    <tags>EmbeddedResource</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\EmbedRes.dll" target="lib\net20" />
+  </files>
+</package>
